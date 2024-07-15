@@ -6,7 +6,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  
 }
 a {
   text-decoration: none;
@@ -15,12 +14,12 @@ a {
   --primary: #1f7759;
   --sec: #054462;
   --third: #832a65;
-  --red:#d73963;
+  --red: #d73963;
 }
 
 .hoverView {
   z-index: 100;
-  
+
   border: 2px solid green;
   background-color: #00000087;
   font-weight: bolder;
@@ -30,7 +29,8 @@ a {
   justify-content: center;
   align-items: center;
   transform: translateX(-50%) translateY(-50%);
-  transition: top 0.1s ease, left 0.1s ease,height 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  transition: top 0.1s ease, left 0.1s ease, height 0.3s ease, width 0.3s ease,
+    opacity 0.3s ease;
   pointer-events: none;
   cursor: none;
 }
@@ -46,13 +46,12 @@ a {
   width: 0px;
 }
 
-.addcolor{
-	color: var(--third);
+.addcolor {
+  color: var(--third);
 }
-.head-color{
-	color: #0cbc84;
+.head-color {
+  color: #0cbc84;
 }
-
 
 /* popup notice design start */
 #popoupContainer {
@@ -77,7 +76,7 @@ a {
   height: 55%;
   position: relative;
 }
-.pop_btn{
+.pop_btn {
   padding: 10px 16px;
   outline: none;
   border: 0;
@@ -88,17 +87,14 @@ a {
   right: -5%;
 }
 
-.custom-chatbot .rsc-float-button { 
-  margin-right: 0; 
+.custom-chatbot .rsc-float-button {
+  margin-right: 0;
 }
 /* popup notice design end */
 
-
-
 /* parent voice design section start  */
 .demo {
-  background: linear-gradient(to bottom, #DAFFE8, #baedcd);
-
+  background: linear-gradient(to bottom, #daffe8, #d49cc2);
 }
 .testimonial {
   background: #fff;
@@ -180,10 +176,7 @@ a {
 }
 /* parent voice design section end  */
 
-
-
 /*main  photo   section start*/
-
 
 .bggallery {
   padding: 20px 0 190px 0;
@@ -202,8 +195,6 @@ a {
   transform-style: preserve-3d;
   animation: rotate 35s linear infinite;
 }
-
-
 
 @keyframes rotate {
   from {
@@ -231,7 +222,7 @@ a {
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   object-fit: cover;
-  transition: transform 0.3s linear; 
+  transition: transform 0.3s linear;
 }
 .gallery:hover {
   animation-play-state: paused;
@@ -266,7 +257,7 @@ a {
 /*main  photo   section end*/
 
 /* counter design start  */
-.count{
+.count {
   padding: 60px 0;
 }
 .counter {
@@ -301,9 +292,7 @@ a {
   width: 100%;
   padding: 10px 0 4px;
   border-radius: 8px;
-  box-shadow:
-    inset 0 0 4px rgba(0, 0, 0, 0.6),
-    0 0 0 2px #fff;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.6), 0 0 0 2px #fff;
   position: absolute;
   left: 0;
   bottom: 27px;
@@ -371,7 +360,7 @@ a {
 /* counter design end  */
 
 /* footer design start */
-.footer{
+.footer {
   /* background-image: linear-gradient(
     rgba(1, 14, 1, 0.5), 
     rgba(2, 14, 11, 0.4)
@@ -382,22 +371,26 @@ a {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color:#582346;
- 
+  background: linear-gradient(
+    75deg,
+    #a55b00,
+    rgb(39, 85, 39),
+    rgb(146, 146, 22)
+  );
 }
-.footer-logo-wrapper{
+.footer-logo-wrapper {
   width: 170px;
-  height:90px;
+  height: 90px;
 }
-.footer-logo-wrapper img{
+.footer-logo-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.widget-title{
+.widget-title {
   color: #00ac98;
 }
-.footer-tag{
+.footer-tag {
   color: rgb(204, 201, 201);
 }
 .footer-text {
@@ -407,9 +400,7 @@ a {
 }
 .animated-hover {
   display: inline-block;
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 .animated-hover:hover {
   transform: translateX(5px);
@@ -440,10 +431,7 @@ a {
 }
 /* footer design end */
 
-
-
 /* abouts us page */
-
 
 /* 
 .mission-vision-section {
@@ -494,8 +482,6 @@ a {
   padding: 40px 0;
 }
 
-
-
 .mission-vision-content {
   padding: 20px;
   border-radius: 10px;
@@ -518,8 +504,6 @@ a {
   clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%, 0% 50%);
 }
 
-
-
 .mission-vision-content1 p,
 .mission-vision-content2 p {
   margin-top: 10px;
@@ -535,29 +519,26 @@ a {
   margin-left: 100px;
 }
 
-
-
-.about-p{
+.about-p {
   font-size: 0.9rem;
   text-align: justify;
 }
-
 
 /* CSS */
 .button-21 {
   align-items: center;
   appearance: none;
   background-color: var(--red);
-  background-image: linear-gradient(1deg, #1e032a, #A64686 99%);
+  background-image: linear-gradient(1deg, #1e032a, #a64686 99%);
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
   box-shadow: none;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-flex;
-  font-family: CircularStd,sans-serif;
+  font-family: CircularStd, sans-serif;
   font-size: 1rem;
   height: auto;
   justify-content: center;
@@ -566,7 +547,7 @@ a {
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: background-color .2s,background-position .2s;
+  transition: background-color 0.2s, background-position 0.2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -584,9 +565,8 @@ a {
 }
 
 .button-21:focus:not(:active) {
-  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
 }
-
 
 /* mission and vision */
 .about-icon1 {
@@ -611,29 +591,22 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: start;
-height: auto;
+  height: auto;
 
   border-color: rgb(255, 255, 255) !important;
-
 }
-.mission-color{
-  background:#b2e7ce;
+.mission-color {
+  background: #fff2b9;
 }
 
 .b-col {
   border-right: 2px solid rgb(4, 4, 4);
 }
 
-.sanskar{
+.sanskar {
   color: var(--third);
 }
 
 .lrpa-p-text {
   text-align: justify;
 }
-
-
-
-
-
-

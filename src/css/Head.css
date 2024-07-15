@@ -1,7 +1,5 @@
 header {
-  background-color: #9DE9C6;
-
- 
+  background-color: #216d4d;
 }
 .navbar-brand {
   width: 120px;
@@ -15,7 +13,6 @@ header {
 .navbar-nav .nav-item:hover:after {
   width: 100%;
   background: #fffdfd;
-  
 }
 .navbar-nav {
   align-items: start;
@@ -25,7 +22,7 @@ header {
   color: green;
 }
 .navbar-nav .nav-link {
-  color: black !important;
+  color: white !important;
   font-size: 15px;
   font-weight: 500;
 
@@ -78,7 +75,6 @@ li.dropdown:hover ul.dropdown-menu {
 }
 
 .navbar-nav a.nav-link {
-
   padding: 0px;
 }
 
@@ -90,9 +86,7 @@ ul.navbar-nav .nav-item:after {
   display: block;
   height: 1px;
   width: 0;
-  transition:
-    width 0.5s ease,
-    background-color 0.5s ease;
+  transition: width 0.5s ease, background-color 0.5s ease;
 }
 
 /* Button Animation */
@@ -101,8 +95,8 @@ ul.navbar-nav .nav-item:after {
   outline: none;
   padding: 3px 20px;
   text-align: center;
-  color: white;
-  background-color: #A64686;
+  color: black;
+  background-color: #e4e12c;
 }
 .animated-button {
   transition: all 0.3s ease;
