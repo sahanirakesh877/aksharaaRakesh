@@ -1,5 +1,5 @@
 header {
-  background-color: #216d4d;
+  background: linear-gradient(30deg, var(--green1), var(--green2));
 }
 .navbar-brand {
   width: 120px;

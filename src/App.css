@@ -12,9 +12,9 @@ a {
 }
 :root {
   --green1: #40513b;
-  --green2: #609966;
-  --green3: #9dc08b;
-  --green4: #edf1d6;
+  --green2: #035e86;
+  --green3: #ffcc08;
+  --green4: #f3d4dc;
   --yellow: #e4e12c;
 }
 
@@ -95,7 +95,7 @@ a {
 
 /* parent voice design section start  */
 .demo {
-  background: linear-gradient(to bottom, var(--green4), var(--green2));
+  background: linear-gradient(to bottom, #f8f8f8, var(--green4));
 }
 .testimonial {
   background: #fff;
