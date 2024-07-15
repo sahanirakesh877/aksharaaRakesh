@@ -473,7 +473,7 @@
 /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
 .blog-banner {
   height: 23vh;
-  background: linear-gradient(to top, #ecfffb, #9dc1d1);
+  background: linear-gradient(to top, #ecfffb, var(--green4));
 }
 .blog-child {
   background-color: #ecfffb;
