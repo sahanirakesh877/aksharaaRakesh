@@ -11,10 +11,11 @@ a {
   text-decoration: none;
 }
 :root {
-  --primary: #1f7759;
-  --sec: #054462;
-  --third: #832a65;
-  --red: #d73963;
+  --green1: #40513b;
+  --green2: #609966;
+  --green3: #9dc08b;
+  --green4: #edf1d6;
+  --yellow: #e4e12c;
 }
 
 .hoverView {
@@ -94,7 +95,7 @@ a {
 
 /* parent voice design section start  */
 .demo {
-  background: linear-gradient(to bottom, #daffe8, #d49cc2);
+  background: linear-gradient(to bottom, var(--green4), var(--green2));
 }
 .testimonial {
   background: #fff;
@@ -371,12 +372,7 @@ a {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover; */
-  background: linear-gradient(
-    75deg,
-    #a55b00,
-    rgb(39, 85, 39),
-    rgb(146, 146, 22)
-  );
+  background: linear-gradient(60deg, var(--green1), var(--green2));
 }
 .footer-logo-wrapper {
   width: 170px;
@@ -529,7 +525,7 @@ a {
   align-items: center;
   appearance: none;
   background-color: var(--red);
-  background-image: linear-gradient(1deg, #1e032a, #a64686 99%);
+  background-image: linear-gradient(1deg, var(--green2), var(--green3) 99%);
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
@@ -596,7 +592,7 @@ a {
   border-color: rgb(255, 255, 255) !important;
 }
 .mission-color {
-  background: #fff2b9;
+  background: var(--green4);
 }
 
 .b-col {

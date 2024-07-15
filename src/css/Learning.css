@@ -1,8 +1,6 @@
 .learning {
-  background: linear-gradient(to bottom, #d7ffed, #7ba98b);
+  background: linear-gradient(30deg, var(--green2), var(--green4));
   cursor: none;
-  
-  
 }
 
 .learnimg {
@@ -10,14 +8,11 @@
   height: 70vh;
 
   transition: all 0.3s ease-in-out;
-  
-
 }
 
 .fuche-sec {
   overflow: hidden;
   height: 100vh;
-  
 }
 
 .kinder_img {
@@ -30,17 +25,15 @@
   padding-top: 10px;
 }
 
-
-
 .rotatediv {
   transform: rotate(8deg);
-/* transform: scaleY(1); */
-display: flex;
-justify-content: center;
-align-items: center;
-height: 130vh;
+  /* transform: scaleY(1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
   margin: -200px 0;
- box-shadow: 10px 0 30px -25px;
+  box-shadow: 10px 0 30px -25px;
 }
 .inner-content {
   transform: rotate(-8deg);
@@ -83,8 +76,7 @@ height: 130vh;
   padding: 8px 15px;
   font-size: 16px;
   border-radius: 50%;
-  box-shadow:
-    rgba(240, 15, 15, 0.16) 1px 1px 3px,
+  box-shadow: rgba(240, 15, 15, 0.16) 1px 1px 3px,
     rgba(246, 9, 9, 0.23) 0px 3px 3px;
 
   cursor: pointer;
@@ -239,13 +231,8 @@ height: 130vh;
   }
 }
 
-
-
-
-
-
 /* lrpa second change */
-.lrpacont{
+.lrpacont {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   padding: 50px;
@@ -254,50 +241,42 @@ height: 130vh;
 
 .lrpaContainer > div:nth-child(1) {
   z-index: 1;
-  }
+}
 .lrpaContainer > div:nth-child(2) {
   z-index: 2;
-  }
+}
 .lrpaContainer > div:nth-child(3) {
   z-index: 3;
-  }
+}
 .lrpaContainer > div:nth-child(4) {
   z-index: 4;
-  }
+}
 
-.contimg{
+.contimg {
   width: 100%;
   height: 265px;
-
- 
-
-  
 }
- .contimg img{
+.contimg img {
   width: 100%;
   height: 100%;
   transition: all 0.2s ease-in-out;
   object-fit: cover;
-  
-
 }
 
-.number{
+.number {
   position: absolute;
   top: -20%;
   right: 2%;
-  box-shadow: inset 5px 5px 10px #b5f8fb,
-  inset -5px -5px 10px #dd93ff;
-  padding:14px 30px;
+  box-shadow: inset 5px 5px 10px #b5f8fb, inset -5px -5px 10px #dd93ff;
+  padding: 14px 30px;
   border-radius: 50%;
 }
-.number1{
+.number1 {
   position: absolute;
   top: -20%;
   left: 2%;
-  box-shadow: inset 5px 5px 10px #b5f8fb,
-  inset -5px -5px 10px #dd93ff;
-  padding:14px 30px;
+  box-shadow: inset 5px 5px 10px #b5f8fb, inset -5px -5px 10px #dd93ff;
+  padding: 14px 30px;
   border-radius: 50%;
 }
 /* .bg-lrp{
@@ -309,16 +288,15 @@ height: 130vh;
 /* .bg-lrp2{
   background-color: #cbfafc7d !important;
 } */
-.bg-lrp3{
+.bg-lrp3 {
   background-color: #defeff89 !important;
 }
 
 .lrpaContainer > div {
   background-color: white;
-  box-shadow: 
-  10px 0 50px -35px black,  /* Right shadow */
-  -10px 0 50px -35px black, /* Left shadow */
-  0 -10px 50px -35px black; /* Top shadow */
+  box-shadow: 10px 0 50px -35px black,
+    /* Right shadow */ -10px 0 50px -35px black,
+    /* Left shadow */ 0 -10px 50px -35px black; /* Top shadow */
   border-radius: 50px 50px 0 0;
   transition: all 0.2s ease-in-out;
 }

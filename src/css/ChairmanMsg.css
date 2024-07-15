@@ -1,16 +1,12 @@
-
-
 .msgperson {
   background: linear-gradient(
       rgba(255, 255, 255, 0.4),
       rgba(154, 250, 220, 0.1)
     ),
-    url('https://img.freepik.com/free-vector/oriental-mandala-frame-floral_53876-115955.jpg?t=st=1720592546~exp=1720596146~hmac=4e2cc1f34841ec0e57681dcad7af80d045cc24ba52e4eba524cebee25ea5c4f8&w=1380');
+    url("https://img.freepik.com/free-vector/oriental-mandala-frame-floral_53876-115955.jpg?t=st=1720592546~exp=1720596146~hmac=4e2cc1f34841ec0e57681dcad7af80d045cc24ba52e4eba524cebee25ea5c4f8&w=1380");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-
 }
 
 .chairman-header {
@@ -21,13 +17,13 @@
   font-weight: 600;
   font-size: 3rem;
   color: #0b8d3d;
-line-height: 55px;
+  line-height: 55px;
   border-bottom: 3px solid transparent;
   transition: border-bottom 0.3s ease;
 }
 
 .chairman-header::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -2px;
@@ -62,7 +58,7 @@ line-height: 55px;
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
-  color: #f35151;
+  color: var(--green1);
 }
 
 .chairman-title {
@@ -77,14 +73,11 @@ line-height: 55px;
   color: #4b4949;
   line-height: 1.6;
   text-align: justify;
-
 }
 
 .chairman-image {
   border-radius: 8px;
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .chairman-image:hover {
