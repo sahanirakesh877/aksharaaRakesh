@@ -56,7 +56,7 @@
 
 .chairman-name {
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   color: var(--green1);
 }
