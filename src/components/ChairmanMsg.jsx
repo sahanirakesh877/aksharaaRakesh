@@ -7,7 +7,7 @@ const ChairmanMsg = () => {
       <div className="msgperson py-4">
         <div className="container shadow-lg p-4">
         <h3 className="chairman-header text-start">Messsage From <br /> The Chairman</h3>
-          <div className="row align-items-start  ">
+          <div className="row align-items-center ">
             <div className="col-lg-8">
               <div className="message-content">
                 <p className="msg-text">
