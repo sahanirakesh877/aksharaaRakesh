@@ -95,8 +95,8 @@ ul.navbar-nav .nav-item:after {
   outline: none;
   padding: 3px 20px;
   text-align: center;
-  color: black;
-  background-color: #e4e12c;
+  color: white;
+  background-color: #e20746;
 }
 .animated-button {
   transition: all 0.3s ease;

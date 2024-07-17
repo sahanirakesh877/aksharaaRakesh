@@ -33,8 +33,8 @@ const Learning = () => {
         <div className="container">
           <div className="row  d-flex align-items-center justify-content-between fuche-sec">
             <div className={`col-md-4 pe-4  ${activeSection ? "d-none" : ""}`}>
-              <h2 className="fw-semibold sanskar">संस्कारयुक्त शिक्षा</h2>
-              <p className="lrpa-text">
+              <h2 className="fw-semibold sanskar  text-light">संस्कारयुक्त शिक्षा</h2>
+              <p className="lrpa-text ">
                 "Sanskaryukta Siksha" is fundamental at our school. The School on its dynamic framework builds on and offers students a repertoire of ECAs made integral with the mainstream academic endeavors we engage students throughout. Some key ECAs that Aksharaa offers on school days.
               </p>
               <h5 className="text-start fw-semibold">

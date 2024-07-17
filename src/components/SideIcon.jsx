@@ -4,15 +4,15 @@ const SideIcon = () => {
   return (
     <div className="sideicon">
       <div className="d-flex flex-column justify-content-center align-items-center gap-2">
-        <div className="iconBox bg-success text-light">
+        <div className="iconBox bg-side text-white">
           <i className="fa-solid fa-phone"></i>
           <span>Call Us</span>
         </div>
-        <div className="iconBox bg-success text-light">
+        <div className="iconBox bg-side text-white">
           <i className="fa-brands fa-whatsapp"></i>
           <span>WhatsApp</span>
         </div>
-        <div className="iconBox bg-success text-light">
+        <div className="iconBox bg-side text-white">
           <i className="fa-regular fa-message"></i>
           <span>Message</span>
         </div>

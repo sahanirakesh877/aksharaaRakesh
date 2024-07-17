@@ -11,7 +11,7 @@ import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
 import SisterOrg from "../components/SisterOrg";
-import About from './About';
+import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
 
@@ -23,21 +23,19 @@ const Home = () => {
   return (
     <>
       <Helmet titleTemplate="Akashara" />
-   
-    
+
       <Banner />
       <Brand />
       <Learning />
-      <About/>
-   
+      <About />
       <Counter />
       {/* <Enquiryform /> */}
       <Blog />
-     <CreativeWeek/>
-    <Testimonial />
-    <HomeBlog/>
+      <CreativeWeek />
+      <Testimonial />
+      <HomeBlog />
       <Gallery />
-      <SisterOrg/>
+      <SisterOrg />
       <Contact />
     </>
   );

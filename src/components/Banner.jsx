@@ -2,6 +2,12 @@ import React from "react";
 
 const carouselData = [
   {
+    id: 5,
+    image: "/c.jpg",
+   title: "Engaging and interactive learning experiences",
+
+  },
+  {
     id: 4,
     image: "/y.jpg",
      title: "Engaging and interactive learning experiences",
@@ -33,12 +39,7 @@ const carouselData = [
   
   },
 
-  {
-    id: 5,
-    image: "/c.jpg",
-   title: "Engaging and interactive learning experiences",
-
-  },
+ 
 ];
 
 const Banner = () => {

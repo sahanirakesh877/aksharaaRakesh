@@ -1,5 +1,7 @@
 .learning {
-  background: linear-gradient(30deg, var(--green2), var(--green4));
+  background: linear-gradient(30deg, #005C86, #47f6d6);
+ 
+
   cursor: none;
 }
 

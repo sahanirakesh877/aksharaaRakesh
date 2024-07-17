@@ -202,17 +202,17 @@ const Blog = () => {
           </h2>
 
           <div className="d-flex flex-row py-4  gap-5  justify-content-center align-items-center ">
-            <h5 className={`border rounded-pill px-4 py-1   text-center fw-semibold ${
+            <h5 className={`border rounded-pill px-4 py-1  border-white  text-center fw-semibold ${
                   filter === "Featured News" ? "text-danger" : "text-dark"
                 }`} onClick={() => setFilter("Featured News")}>
               Activities
             </h5>
-            <h5 className={`border rounded-pill px-4 py-1   text-center fw-semibold ${
+            <h5 className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
                   filter === "Upcoming Events" ? "text-danger" : "text-dark"
                 }`}  onClick={() => setFilter("Upcoming Events")}>
               Upcoming Events
             </h5>
-            <h5  className={`border rounded-pill px-4 py-1   text-center fw-semibold ${
+            <h5  className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
                   filter === "Calendar" ? "text-danger" : "text-dark"
                 }`}  onClick={() => setFilter("Calendar")}>Calendar</h5>
           </div>
