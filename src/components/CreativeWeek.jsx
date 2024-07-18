@@ -49,7 +49,6 @@ const CreativeWeek = () => {
     <>
       <div className="container">
         <div className="row py-5">
-
           <div className="col-lg-6">
             <h2 className="text-center border-bottom-title w-100 head-color mb-5">
               <span className="addcolor">Creatives Of </span> This Week
@@ -79,7 +78,6 @@ const CreativeWeek = () => {
               />
             </div>
           </div>
-          
         </div>
       </div>
     </>

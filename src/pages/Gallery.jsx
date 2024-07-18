@@ -1,38 +1,42 @@
 import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
 import Download from "yet-another-react-lightbox/plugins/download";
 import Counter from "yet-another-react-lightbox/plugins/counter";
 import Share from "yet-another-react-lightbox/plugins/share";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import { Thumbnails } from "yet-another-react-lightbox/plugins";
 
 const Gallery = () => {
   const [open, setOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    { src: "school/banner1.jpg", alt: "School Banner 1" },
+  
     { src: "school/banner2.jpg", alt: "School Banner 2" },
     { src: "school/banner3.jpg", alt: "School Banner 3" },
-    { src: "https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg", alt: "Stylish Young Woman Taking Selfie" },
-    { src: "https://image.freepik.com/free-photo/pretty-girl-near-car_1157-16962.jpg", alt: "Pretty Girl Near Car" },
-    { src: "https://image.freepik.com/free-photo/blonde-tourist-taking-selfie_23-2147978899.jpg", alt: "Blonde Tourist Taking Selfie" },
-    { src: "https://image.freepik.com/free-photo/cute-girls-oin-studio_1157-18211.jpg", alt: "Cute Girls in Studio" },
     { src: "school/banner4.jpg", alt: "School Banner 4" },
     { src: "school/banner5.jpg", alt: "School Banner 5" },
     { src: "school/banner1.jpg", alt: "School Banner 1" },
-    { src: "https://image.freepik.com/free-photo/stylish-pin-up-girls_1157-18451.jpg", alt: "Stylish Pin-Up Girls" },
-    { src: "https://image.freepik.com/free-photo/stylish-pin-up-girl_1157-18940.jpg", alt: "Stylish Pin-Up Girl" },
+    {src:'/school/school1.JPG'},
+    {src:'/school/school2.JPG'},
+    {src:'/school/school3.JPG'},
+    {src:'/school/school4.JPG'},
+    {src:'/school/school5.JPG'},
+    { src: "school/banner1.jpg", alt: "School Banner 1" },
+  
   ];
 
   const handleOpen = (index) => {
-    setCurrentIndex(index); // Update currentIndex with the clicked index
+    setCurrentIndex(index); 
     setOpen(true);
   };
 
   return (
     <div className="container py-5">
-      <h2 className="text-center mb-4">Gallery</h2>
+      <h2 className="text-center mb-4 border-bottom-title w-100 ">Gallery</h2>
       <div className="row">
         {images.map((image, index) => (
           <div
@@ -46,10 +50,10 @@ const Gallery = () => {
       </div>
       <Lightbox
         open={open}
-        slides={images}
-        currentIndex={currentIndex} 
+        slides={images.map((img) => ({ src: img.src, alt: img.alt }))}
+        currentIndex={currentIndex}
         close={() => setOpen(false)}
-        plugins={[Zoom, Download, Share, Counter]}
+        plugins={[Zoom, Download, Share, Counter, Thumbnails]}
         counter={{ container: { style: { top: "unset", bottom: 0 } } }}
         zoom={{
           maxZoom: 5,

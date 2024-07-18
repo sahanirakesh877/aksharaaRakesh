@@ -18,27 +18,22 @@
   color: #494747;
 }
 
-.collage-container {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+
 
 .collage-img3{
-  height: 260px;
-  width: 50%;
+  height:100%;
+  width: 48%;
  
 }
 .collage-img3 img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .collage-img1,
 .collage-img2 {
-  height: 200px;
+  height: 140px;
   width: 100%;
 }
 
@@ -46,5 +41,5 @@
 .collage-img2 img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }

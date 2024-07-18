@@ -6,7 +6,7 @@ const SisterOrg = () => {
     <>
       <div className="sis py-5">
         <div className="container">
-          <div className="row py-4 d-flex align-items-center justify-content-center">
+          <div className="row py-4 d-flex align-items-center justify-content-center ">
             {/* Left Collage */}
             <div className="col-md-4 p-md-0 d-flex  justify-content-center align-items-center ">
               <div className="col-md-4  collage-img3 me-3">
