@@ -293,7 +293,9 @@
 .bg-lrp3 {
   background-color: #defeff89 !important;
 }
-
+.sanskar{
+  color: rgb(191, 6, 37);
+}
 .lrpaContainer > div {
   background-color: white;
   box-shadow: 10px 0 50px -35px black,

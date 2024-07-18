@@ -5,23 +5,26 @@ const counter = [
     icon: "fa fa-user",
     counterNo: 100,
   },
+
   {
     id: 2,
     name: "Students",
     icon: "fa fa-school",
     counterNo: 700,
   },
+
   {
     id: 3,
-    name: "Staffs",
-    icon: "fa fa-user",
-    counterNo: 200,
+    name: "staffs",
+    icon: "fa fa-trophy",
+    counterNo: 100,
   },
+
   {
     id: 4,
     name: "Faculty",
     icon: "fa fa-school",
-    counterNo: 10,
+    counterNo: 16,
   },
 ];
 export default counter;

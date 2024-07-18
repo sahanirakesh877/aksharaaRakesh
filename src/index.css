@@ -725,7 +725,7 @@ a.icon-link:hover {
   line-height: 25px;
   vertical-align: bottom;
   color: white;
-  background: var(--primary);
+  background: var(--red);
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 }
 .btn.btn--only-icon {

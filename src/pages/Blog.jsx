@@ -15,25 +15,25 @@ const Blog = () => {
   const blogData = [
     {
       id: 1,
-      title: "School Event Highlights",
+      title: "Annual Functions",
       date: "2024-Mar-15",
-      des: "Our School celebrating National Parent Involvement Day on December 3.",
+      des: "Our School celebrating National Parent Involvement Day on Dec 3.",
     },
     {
       id: 2,
-      title: "Online Learning Tips",
+      title: "Exhibition's day",
       date: "2024-May-12",
       des: "Year 6 pupils are invited to join us for a Taster Day.",
     },
     {
       id: 3,
-      title: "Student Achievements",
+      title: "Robotics Training",
       date: "2024-Apr-10",
       des: "Celebrating National Parent Involvement Day on December 3.",
     },
     {
       id: 4,
-      title: "Teacher's Corner",
+      title: "Online Learning Tips",
       date: "2024-Jul-20",
       des: "Year 6 pupils are invited to join us for a Taster Day.",
     },
@@ -65,72 +65,128 @@ const Blog = () => {
 
   const scheduleData = [
     {
-      date: "January 18",
-      event: ["First Day of School for Students", "Washington Day Holiday"],
-    },
-    { date: "January 20", event: ["Holiday: Veterans Day"] },
-    { date: "November 23–27", event: ["Thanksgiving Break"] },
-    { date: "December 21", event: ["First Day of Winter Break"] },
-    {
-      date: "febuary 4",
+      date: "Shrawan 2081 (July- August 2024)",
       event: [
-        "School Resumes",
-        "Independence Day Holiday",
-        "Halloween Celebration",
+        "10th: Mid-Term Exams End",
+        "14th: Maha Shivaratri (No School)",
+        "20th: Result Day and Parent-Teacher Conference",
+        "29th: Holi Festival (No School)",
+        "	6th: Teachers Day",
       ],
     },
-    { date: "January 18", event: ["Holiday: Martin Luther King Jr. Day"] },
-    { date: "February 12", event: ["Lincoln Day Holiday"] },
-    { date: "February 15", event: ["Washington Day Holiday"] },
     {
-      date: "March 15",
-      event: ["Washington Day Holiday", "Washington Day classDay"],
-    },
-    { date: "April 4", event: ["School Resumes"] },
-    {
-      date: "May 27",
+      date: "Bhadra 2081 (Aug - Sept 2024)",
       event: [
-        "Non-Instructional Day. Schools closed",
-        "Back to School Preparation",
+        "	3rd : Janai Purnima (No School)",
+        "	4th: Gaai Jatra",
+        "	10th: krishna Janmashtami Day Celebration",
+        "	17th: Father’s Day",
+        "	21st: Teej Festival (No School)",
       ],
     },
-    { date: "May 30", event: ["Memorial Day Holiday", "Summer Break Ends"] },
+
     {
-      date: "June 21",
-      event: ["Last Day of School", "Back to School Preparation"],
+      date: "Asoj 2081 (Sep - Oct 2024)",
+      event: [
+        "5th: Parent-Teacher Meeting",
+        "17th - 30th: Dashain Break (No School)",
+      ],
     },
+    {
+      date: "Kartik 2081 (Oct - Nov 2024)",
+      event: ["15th - 19th: Tihar Break (No School)", "22nd: Chhath Puja"],
+    },
+    {
+      date: "Mangsir 2081 (Nov - Dec 2024)",
+      event: [
+        "18th: International Disable Day",
+        "20th: Result Day and Parent-Teacher Conference",
+        "25th: Winter Cultural Program",
+      ],
+    },
+    {
+      date: "Poush 2081 (Dec 2024 - Jan 2025)",
+      event: [
+        "1st: Winter Break Begins (No School)",
+        "10th: Christmas Day",
+        "15th: Winter Break Ends, School Resumes",
+        "25th: Saraswati Puja Celebration",
+      ],
+    },
+
+    {
+      date: "Magh 2081 (Jan - Febr 2025)",
+      event: [
+        "5th: Educational Tour",
+        "15th: Sports Competition",
+        "21st: Saraswati Puja",
+        "28th: Martyrs' Day (No School)",
+      ],
+    },
+    { date: "Falgun 2081 (Feb - Mar 2025)", event: ["1st: Mid-Term Exams Start"] },
+    {
+      date: "Chaitra 2081 (Mar - Apr 2025)",
+      event: ["5th: Annual Day Rehearsal", "8th: Annual Day Celebration","16th: Ghodey Jatra","20th: Final Exams Start","30th: Final Exams End"],
+    },
+  
   ];
 
   const blog = [
     {
       id: 1,
       blogimg: "/school/banner1.jpg",
-      title: "Drawing and painting",
-      paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
+      title: "Debate Competitions",
+      paragraph:
+        " Students engage in structured arguments on various topics and innovation topics",
     },
     {
       id: 2,
       blogimg: "/school/banner2.jpg",
-      title: "Drawing and Painting Lessons",
-      paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
+      title: "Science Fairs",
+      paragraph:
+        "Students present scientific experiments and projects. and many more",
     },
     {
       id: 3,
       blogimg: "/school/banner3.jpg",
-      title: "High School students share",
-      paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
+      title: "Talent Shows",
+      paragraph:
+        "Students showcase their talents in singing, dancing, and other arts.",
     },
     {
       id: 4,
       blogimg: "/school/banner4.jpg",
-      title: "High School students share",
-      paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
+      title: "Field Trips",
+      paragraph:
+        " Educational visits to museums, historical sites, nature parks, etc.",
     },
     {
       id: 5,
       blogimg: "/school/banner5.jpg",
-      title: "Drawing and painting",
-      paragraph: "The Workshop focused on Dr. Templeton’s Xavier.",
+      title: "School Assemblies",
+      paragraph:
+        "Gatherings for announcements, performances, and motivational talks",
+    },
+    {
+      id: 6,
+      blogimg: "/school/banner3.jpg",
+      title: "Sports Days",
+      paragraph:
+        " School-wide athletic events ,  competitions ,swimming and other events",
+    },
+    {
+      id: 7,
+      blogimg: "/school/banner1.jpg",
+      title: "Health and Wellness Programs",
+      paragraph:
+        "Activities focused on physical and mental well-being, such as yoga or mindfulness sessions.",
+    },
+    {
+      id: 8,
+      blogimg: "/school/banner2.jpg",
+      title: "Volunteering",
+      paragraph:
+        "Community service projects, charity drives, and environmental clean-ups.",
     },
   ];
 
@@ -202,19 +258,30 @@ const Blog = () => {
           </h2>
 
           <div className="d-flex flex-row py-4  gap-5  justify-content-center align-items-center ">
-            <h5 className={`border rounded-pill px-4 py-1  border-white  text-center fw-semibold ${
-                  filter === "Featured News" ? "text-danger" : "text-dark"
-                }`} onClick={() => setFilter("Featured News")}>
+            <h5
+              className={`border rounded-pill px-4 py-1  border-white  text-center fw-semibold ${
+                filter === "Featured News" ? "text-danger" : "text-dark"
+              }`}
+              onClick={() => setFilter("Featured News")}
+            >
               Activities
             </h5>
-            <h5 className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
-                  filter === "Upcoming Events" ? "text-danger" : "text-dark"
-                }`}  onClick={() => setFilter("Upcoming Events")}>
+            <h5
+              className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
+                filter === "Upcoming Events" ? "text-danger" : "text-dark"
+              }`}
+              onClick={() => setFilter("Upcoming Events")}
+            >
               Upcoming Events
             </h5>
-            <h5  className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
-                  filter === "Calendar" ? "text-danger" : "text-dark"
-                }`}  onClick={() => setFilter("Calendar")}>Calendar</h5>
+            <h5
+              className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
+                filter === "Calendar" ? "text-danger" : "text-dark"
+              }`}
+              onClick={() => setFilter("Calendar")}
+            >
+              Calendar
+            </h5>
           </div>
 
           {/* <div className="row py-4  ">

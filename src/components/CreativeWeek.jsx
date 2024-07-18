@@ -22,24 +22,26 @@ const CreativeWeek = () => {
         <img src={img} alt={`Brand ${index + 1}`} className="card-img-top" />
       </div>
       <div className="card-body my-md-0  border position-relative ">
-        <h5 className="text-danger my-md-0 d-inline ">Annula Function</h5>
-        <p className="creative-text  my-md-0 pb-5"> Join us for an Exciting lineup of workshops and seminars that will inspire and empower you!
-        Don't miss out on our annual college fest—packed with fun activities, competitions, and unforgettable experiences</p>
-
-       
-          <div className="btn_wraps position-absolute end-0  bottom-0 my-2 me-3">
-            <span className="share">
-              Share <i class="fa-solid fa-share"></i>
-            </span>
-            <div className="share-icon">
-              <i className="fab fa-facebook-f creative_i" />
-              <i className="fab fa-whatsapp creative_i " />
-              <i className="fab fa-instagram creative_i" />
-              <i className="fab fa-linkedin creative_i" />
-            </div>
+        <h5 className="text-danger my-md-0 d-inline ">Annual Function</h5>
+        <p className="creative-text  my-md-0 pb-5">
+          {" "}
+          Join us for an Exciting lineup of workshops and seminars that will
+          inspire and empower you! Don't miss out on our annual college
+          fest—packed with fun activities, competitions, and unforgettable
+          experiences
+        </p>
+        <div className="btn_wraps position-absolute end-0  bottom-0 my-2 me-3">
+          <span className="share">
+            Share <i class="fa-solid fa-share"></i>
+          </span>
+          <div className="share-icon">
+            <i className="fab fa-facebook-f creative_i" />
+            <i className="fab fa-whatsapp creative_i " />
+            <i className="fab fa-instagram creative_i" />
+            <i className="fab fa-linkedin creative_i" />
           </div>
         </div>
-     
+      </div>
     </div>
   ));
 
@@ -47,11 +49,11 @@ const CreativeWeek = () => {
     <>
       <div className="container">
         <div className="row py-5">
+
           <div className="col-lg-6">
             <h2 className="text-center border-bottom-title w-100 head-color mb-5">
               <span className="addcolor">Creatives Of </span> This Week
             </h2>
-
             <AliceCarousel
               mouseTracking
               items={items}
@@ -64,6 +66,7 @@ const CreativeWeek = () => {
               disableButtonsControls={true}
             />
           </div>
+
           <div className="col-lg-6">
             <h2 className="text-center border-bottom-title w-100 head-color mb-5">
               <span className="addcolor">Important </span> Notice
@@ -76,6 +79,7 @@ const CreativeWeek = () => {
               />
             </div>
           </div>
+          
         </div>
       </div>
     </>

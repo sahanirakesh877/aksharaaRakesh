@@ -117,9 +117,7 @@ const About = () => {
                 ></i>
                 <h4 className="text-center">OUR VALUES</h4>
                 <p className="mission-p">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Esse, ullam. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Molestias, sequi?
+                We are committed to excellence, integrity, and inclusivity, fostering innovation and critical thinking. Through collaboration and community, we promote lifelong learning and personal growth. We empower students to be resilient and confident, prioritizing their well-being to develop compassionate and responsible global citizens.
                 </p>
               </div>
             </div>

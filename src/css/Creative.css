@@ -60,7 +60,7 @@
     cursor: pointer;
     width: 140px;
     /* height: 28px; */
-    background-color: var(--third);
+    background-color: var(--green1 );
     border-radius: 80px;
     padding:8px 18px;
     will-change: transform;

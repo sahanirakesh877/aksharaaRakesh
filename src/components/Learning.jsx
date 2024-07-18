@@ -6,7 +6,7 @@ const Learning = () => {
   const navigate = useNavigate();
   const [activeSection, setActiveSection] = useState(null);
 
-  const hoverRef = useRef(null)
+  const hoverRef = useRef(null);
 
   const [hover, setHover] = useState(false);
 
@@ -25,24 +25,37 @@ const Learning = () => {
         hoverRef.current.style.left = `${e.pageX}px`;
       });
     }
-  }
+  };
 
   return (
     <>
-      <div className="learning " onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} onMouseMove={handleEffect}>
+      <div
+        className="learning "
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+        onMouseMove={handleEffect}
+      >
         <div className="container">
           <div className="row  d-flex align-items-center justify-content-between fuche-sec">
             <div className={`col-md-4 pe-4  ${activeSection ? "d-none" : ""}`}>
-              <h2 className="fw-semibold sanskar  text-light">संस्कारयुक्त शिक्षा</h2>
+              <h5>Aksharaa‘s Guiding Principle</h5>
+              <h2 className="fw-semibold sanskar  ">
+                संस्कारयुक्त शिक्षा
+              </h2>
               <p className="lrpa-text ">
-                "Sanskaryukta Siksha" is fundamental at our school. The School on its dynamic framework builds on and offers students a repertoire of ECAs made integral with the mainstream academic endeavors we engage students throughout. Some key ECAs that Aksharaa offers on school days.
+                Our guiding concept at Aksharaa School is "संस्कारयुक्त शिक्षा"
+                which translates education infused with values. We consider the
+                entire development of a child's character and values to be an
+                integral part of meaningful education, which goes beyond
+                academic achievement. In addition to fostering academic
+                development, our curriculum aims at cultivating values like
+                respect, integrity, compassion, and responsibility. Through the
+                incorporation of these principles into our regular teaching
+                procedures, we aspire to develop full-fledged individuals who
+                are not just knowledgeable but also morally and socially
+                conscious.
               </p>
-              <h5 className="text-start fw-semibold">
-                Learning through LRPA approach in Akshara
-              </h5>
-              <p className="lrpa-text">
-                We follow the LRPA model with the motto "learning through fun." Our approach emphasizes experiential learning, making core theories and values engaging. Students explore and experience learning beyond textbooks, fostering critical thinking and rational analysis through active participation. Equipped with modern technology, our classrooms support the use of computers, laptops, televisions, and projectors.
-              </p>
+
               <button
                 className="button-21"
                 role="button"
@@ -57,16 +70,21 @@ const Learning = () => {
                 <button onClick={handleClose} className="close-btn">
                   <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h3 className="border-bottom-title w-100 text-center ">Senior</h3>
+                <h3 className="border-bottom-title w-100 text-center ">
+                  Senior School (Class 8-10)
+                </h3>
                 <p className="lrpa-text px-2">
-                  Located on the main campus at Truganina, the Senior School is characterised by three age-appropriate learning clusters: the Horsburgh Centre (Years 7 - 8), the Geoffrey Ryan Centre (Year 9 Program), and the Senior College for Years 10 - 12. These distinct characteristics create complementary environments. The curriculum and overall environment are designed to support students' growth and development.
+                  Our Senior School program combines rigorous academics with
+                  value-based education, ensuring students are well-prepared for
+                  higher education and life’s challenges. Counseling and support
+                  services are available to guide students through their.Display of handmade crafts and DIY projects created by our students. Local & natural materials are used for creating these crafts.
                 </p>
                 <button
                   className="button-21"
                   role="button"
                   onClick={() => navigate("/academics/high")}
                 >
-                  Enroll now 
+                  Enroll now
                 </button>
               </div>
             )}
@@ -76,16 +94,24 @@ const Learning = () => {
                 <button onClick={handleClose} className="close-btn">
                   <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h3 className="border-bottom-title w-100 text-center">Middle</h3>
+                <h3 className="border-bottom-title w-100 text-center">
+                  Middle School (Class 6-7)
+                </h3>
                 <p className="lrpa-text px-2">
-                  The Horsburgh Centre (Years 7 - 8), the Geoffrey Ryan Centre (Year 9 Program), and the Senior College for Years 10 - 12 are key components of our Middle School. These distinct characteristics create complementary environments that support students' growth and development.
+                  Middle School education at Aksharaa encourages independent
+                  learning and ethical reasoning, equipping students with the
+                  skills and values necessary for future success. Students learn
+                  to manage their time effectively and take responsibility for
+                  their own learning. Our advisory programs provide additional
+                  support and mentorship, helping students navigate this
+                  critical stage.
                 </p>
                 <button
                   className="button-21"
                   role="button"
                   onClick={() => navigate("/academics/middle")}
                 >
-                  Enroll now 
+                  Enroll now
                 </button>
               </div>
             )}
@@ -95,16 +121,24 @@ const Learning = () => {
                 <button onClick={handleClose} className="close-btn">
                   <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h3 className="border-bottom-title w-100 text-center">Elementary School</h3>
+                <h3 className="border-bottom-title w-100 text-center">
+                  Elementary School (Class 1-5)
+                </h3>
                 <p className="lrpa-text px-2">
-                  Our Elementary School is characterised by three age-appropriate learning clusters: the Horsburgh Centre (Years 7 - 8), the Geoffrey Ryan Centre (Year 9 Program), and the Senior College for Years 10 - 12. These distinct characteristics create complementary environments that support students' growth and development.
+                  Aksharaa’s Elementary School nurtures intellectual growth and
+                  character development, ensuring students excel academically
+                  while embodying ethical principles. Through collaborative
+                  projects and individual assignments, students learn the value
+                  of hard work and integrity. Our goal is to develop confident,
+                  well-rounded individuals who are prepared for middle school
+                  and beyond.
                 </p>
                 <button
                   className="button-21"
                   role="button"
                   onClick={() => navigate("/academics/elementary")}
                 >
-                  Enroll now 
+                  Enroll now
                 </button>
               </div>
             )}
@@ -114,16 +148,23 @@ const Learning = () => {
                 <button onClick={handleClose} className="close-btn">
                   <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h3 className="border-bottom-title w-100 text-center">Kindergarten</h3>
+                <h3 className="border-bottom-title w-100 text-center">
+                  Kindergarten (PG-KG)
+                </h3>
                 <p className="lrpa-text px-2">
-                  The Senior College and the Senior College for Years 10 - 12 have distinct characteristics that create complementary environments. The curriculum and overall environment are designed to support students' growth and development.
+                  In our Kindergarten classes, children learn through playful
+                  experiences while instilling values like kindness, honesty,
+                  and respect, creating a strong educational foundation.
+                  Activities are carefully crafted to be fun and educational,
+                  promoting holistic growth. We believe in teaching children the
+                  importance of empathy and cooperation from an early age.
                 </p>
                 <button
                   className="button-21"
                   role="button"
                   onClick={() => navigate("/academics/kindergarten")}
                 >
-                  Enroll now 
+                  Enroll now
                 </button>
               </div>
             )}
@@ -135,11 +176,19 @@ const Learning = () => {
                 onClick={() => handleImageClick("senior")}
               >
                 <div className="inner-content">
-                  <img src="/alternate/senior.png" alt="" className="img-custom" />
-                  <p className="seniors border px-3 rounded-2 py-1 border me-4">Seniors</p>
+                  <img
+                    src="/alternate/senior.png"
+                    alt=""
+                    className="img-custom"
+                  />
+                  <p className="seniors border px-3 rounded-2 py-1 border me-4">
+                    Seniors
+                  </p>
                 </div>
               </div>
             </div>
+
+
 
             <div className="col-md-2 rotatediv">
               <div
@@ -147,11 +196,18 @@ const Learning = () => {
                 onClick={() => handleImageClick("middle")}
               >
                 <div className="inner-content">
-                  <img src="/alternate/girl1.png" alt="" className="img-custom kinder_img2" />
-                  <p className="seniors px-3 rounded-2 py-1 border me-4">Middle</p>
+                  <img
+                    src="/alternate/girl1.png"
+                    alt=""
+                    className="img-custom kinder_img2"
+                  />
+                  <p className="seniors px-3 rounded-2 py-1 border me-4">
+                    Middle
+                  </p>
                 </div>
               </div>
             </div>
+
 
             <div className="col-md-2 rotatediv">
               <div
@@ -159,11 +215,18 @@ const Learning = () => {
                 onClick={() => handleImageClick("elementary")}
               >
                 <div className="inner-content">
-                  <img src="/alternate/girl2.png" alt="" className="img-custom kinder_img1" />
-                  <p className="seniors   rounded-2 py-1 border me-5 px-1 text-nowrap">Elementary School</p>
+                  <img
+                    src="/alternate/girl2.png"
+                    alt=""
+                    className="img-custom kinder_img1"
+                  />
+                  <p className="seniors   rounded-2 py-1 border me-5 px-1 text-nowrap">
+                    Elementary School
+                  </p>
                 </div>
               </div>
             </div>
+
 
             <div className="col-md-2 rotatediv">
               <div
@@ -171,17 +234,29 @@ const Learning = () => {
                 onClick={() => handleImageClick("kindergarten")}
               >
                 <div className="inner-content">
-                  <img src="/alternate/kindergarten.png" alt="" className="img-custom kinder_img" />
-                  <p className="seniors px-3 rounded-2 py-1 border me-5">Kindergarten</p>
+                  <img
+                    src="/alternate/kindergarten.png"
+                    alt=""
+                    className="img-custom kinder_img"
+                  />
+                  <p className="seniors px-3 rounded-2 py-1 border me-5">
+                    Kindergarten
+                  </p>
                 </div>
               </div>
             </div>
 
-
           </div>
         </div>
 
-        <div className={`position-absolute hoverView ${hover ? "hovering" : "unhover"}  `} ref={hoverRef}>View</div>
+        <div
+          className={`position-absolute hoverView ${
+            hover ? "hovering" : "unhover"
+          }  `}
+          ref={hoverRef}
+        >
+          View
+        </div>
       </div>
     </>
   );
