@@ -8,7 +8,7 @@ const SisterOrg = () => {
         <div className="container">
           <div className="row py-4 d-flex align-items-center justify-content-center ">
             {/* Left Collage */}
-            <div className="col-md-4 p-md-0 d-flex  justify-content-center align-items-center ">
+            <div className="col-md-4 p-md-0 d-flex  justify-content-center align-items-center   ">
               <div className="col-md-4  collage-img3 me-3">
                 <img
                   src="/school/school4.JPG"
@@ -34,11 +34,11 @@ const SisterOrg = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <h2 className="text-center border-bottom-title w-100 head-color">
                 <span className="addcolor">Sister</span> Organization
               </h2>
-              <div className="poster text-center">
+              <div className="poster text-center ">
                 <img
                   src="/sisremove.png"
                   alt="sister organization..."
