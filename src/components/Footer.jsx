@@ -7,21 +7,18 @@ const Footer = () => {
         <section>
           <div className="container">
             <div className="row d-flex align-items-start">
-
-
               <div className="col-12 col-lg-4 footer-left py-4 py-md-5 py-xxl-8">
                 <div className="row h-100 align-items-end justify-content-center">
                   <div className="col-12 col-md-11 col-xl-10">
-                    <div className="footer-logo-wrapper 
-                    mb-4">
-
+                    <div
+                      className="footer-logo-wrapper 
+                    mb-4"
+                    >
                       <a href="#!">
                         <img
                           src="/white-logo.png"
                           alt="BootstrapBrain Logo"
                           className="img-fluid "
-
-                          
                         />
                       </a>
                     </div>
@@ -136,7 +133,6 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-lg-8  py-4 py-md-5 py-xxl-8">
                 <div className="row justify-content-center">
@@ -313,7 +309,7 @@ const Footer = () => {
                           <p className="mb-4 footer-tag">
                             Never miss out on our Akshara school's latest news,
                             updates, and exclusive offers! Subscribe to our
-                            newsletter today 
+                            newsletter today
                           </p>
                           <form action="#!">
                             <div className="row gy-4">
@@ -346,13 +342,11 @@ const Footer = () => {
                                 </div>
                               </div>
                               <div className="col-12">
-                                <div className=" ">
-                              
+                                <div className="mb-sm-4">
                                   <button class="button-21 w-100" role="button">
-              {" "}
-              Subscribe
-              
-            </button>
+                                    {" "}
+                                    Subscribe
+                                  </button>
                                 </div>
                               </div>
                             </div>
@@ -362,7 +356,7 @@ const Footer = () => {
                     </div>
 
                     {/* last footer  */}
-                    <div className="row  pt-4  border-top   border-light-subtle">
+                    <div className="row  pt-4  border-top  mt-2  border-light-subtle">
                       <div className="footer-copyright-wrapper mt-6 text-light">
                         © 2024. All Rights Reserved.
                       </div>

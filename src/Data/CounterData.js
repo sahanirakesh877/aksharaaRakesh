@@ -3,7 +3,7 @@ const counter = [
     id: 1,
     name: "Teacher",
     icon: "fa fa-user",
-    counterNo: 100,
+    counterNo: 200,
   },
 
   {
@@ -24,7 +24,7 @@ const counter = [
     id: 4,
     name: "Faculty",
     icon: "fa fa-school",
-    counterNo: 16,
+    counterNo: 19,
   },
 ];
 export default counter;

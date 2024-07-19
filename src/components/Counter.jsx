@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import counter from "../Data/CounterData";
+import '../css/Counter.css'
 
 const Counter = () => {
   return (
@@ -29,7 +30,7 @@ const Counter = () => {
                   enableScrollSpy={true}
                   scrollSpyOnce={true}
                 />+
-              </span>
+              </span> 
             </div>
           ))}
       </div>

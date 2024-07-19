@@ -123,12 +123,20 @@ const Blog = () => {
         "28th: Martyrs' Day (No School)",
       ],
     },
-    { date: "Falgun 2081 (Feb - Mar 2025)", event: ["1st: Mid-Term Exams Start"] },
+    {
+      date: "Falgun 2081 (Feb - Mar 2025)",
+      event: ["1st: Mid-Term Exams Start"],
+    },
     {
       date: "Chaitra 2081 (Mar - Apr 2025)",
-      event: ["5th: Annual Day Rehearsal", "8th: Annual Day Celebration","16th: Ghodey Jatra","20th: Final Exams Start","30th: Final Exams End"],
+      event: [
+        "5th: Annual Day Rehearsal",
+        "8th: Annual Day Celebration",
+        "16th: Ghodey Jatra",
+        "20th: Final Exams Start",
+        "30th: Final Exams End",
+      ],
     },
-  
   ];
 
   const blog = [
@@ -259,7 +267,7 @@ const Blog = () => {
 
           <div className="d-flex flex-row py-4  gap-5  justify-content-center align-items-center ">
             <h5
-              className={`border rounded-pill px-4 py-1  border-white  text-center fw-semibold ${
+              className={`border rounded-pill px-4 py-1 flex-wrap d-flex  border-info   text-center fw-semibold ${
                 filter === "Featured News" ? "text-danger" : "text-dark"
               }`}
               onClick={() => setFilter("Featured News")}
@@ -267,7 +275,7 @@ const Blog = () => {
               Activities
             </h5>
             <h5
-              className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
+              className={`border rounded-pill px-4 py-1 border-info  flex-wrap d-flex   text-center fw-semibold ${
                 filter === "Upcoming Events" ? "text-danger" : "text-dark"
               }`}
               onClick={() => setFilter("Upcoming Events")}
@@ -275,7 +283,7 @@ const Blog = () => {
               Upcoming Events
             </h5>
             <h5
-              className={`border rounded-pill px-4 py-1 border-white   text-center fw-semibold ${
+              className={`border rounded-pill px-4 py-1 border-info flex-wrap d-flex   text-center fw-semibold ${
                 filter === "Calendar" ? "text-danger" : "text-dark"
               }`}
               onClick={() => setFilter("Calendar")}
@@ -283,42 +291,6 @@ const Blog = () => {
               Calendar
             </h5>
           </div>
-
-          {/* <div className="row py-4  ">
-            <div className="col-md-4">
-              <p
-                // className=" text-center py-3 btns from-left "
-                className={`text-center py-3 btns ${
-                  filter === "Featured News" ? "inactive" : "from-left"
-                }`}
-                onClick={() => setFilter("Featured News")}
-              >
-                Featured News
-              </p>
-            </div>
-            <div className="col-md-4">
-              <p
-                // className="btns from-center  text-center py-3"
-                className={`text-center py-3 btns ${
-                  filter === "Upcoming Events" ? "inactive" : "from-center"
-                }`}
-                onClick={() => setFilter("Upcoming Events")}
-              >
-                Upcoming Events
-              </p>
-            </div>
-            <div className="col-md-4">
-              <p
-                // className=" text-center py-3 btns  from-right"
-                className={`text-center py-3 btns ${
-                  filter === "Calendar" ? "inactive" : "from-right"
-                }`}
-                onClick={() => setFilter("Calendar")}
-              >
-                Calendar
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
 

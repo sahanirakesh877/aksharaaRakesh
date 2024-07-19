@@ -233,151 +233,7 @@
 
 /* ==============================Top Bar end ===================================*/
 
-/* banner us section design  start */
-.home .carousel-item {
-  min-height: 81vh;
-  background-position: cover;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-.home .carousel-item:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  z-index: -1;
-}
-.home .carousel-item .container {
-  position: absolute;
-  left: 90%;
-  top: 91%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.home .carousel-item h2 {
-  font-size: 40px;
-  font-weight: semibold;
-  text-shadow: 3px 3px 5px rgb(83, 83, 83);
-  color: #ffffff;
-  /* margin: 0 0 30px; */
-  margin-top: 150px;
-  opacity: 0;
-}
-.home .carousel-item p {
-  font-size: 18px;
-  margin: 0;
-  /* text-shadow: 5px 5px 5px rgba(0, 0, 0, 1); */
-  color: white;
-  background-color: var(--red);
-  padding: 5px 20px;
-  border-radius: 20px;
-  display: inline;
-  opacity: 0;
-}
-.home .carousel-item.active h2 {
-  animation: fadeInLeft 0.5s ease forwards;
-}
-.home .carousel-item.active p {
-  animation: fadeInRight 0.5s ease forwards;
-}
 
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.home .carousel-controls {
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
-  z-index: 10;
-  transform: translateX(-50%);
-}
-
-.home .carousel-indicators {
-  position: relative;
-  margin: 0;
-}
-
-.home .carousel-indicators li {
-  height: 70px;
-  width: 70px;
-  margin: 0 5px;
-  border-radius: 50%;
-  background-position: center;
-  background-size: cover;
-  border: 3px solid transparent;
-  transition: all 0.3s ease;
-  border-color: white;
-}
-.home .carousel-indicators li.active {
-  border-color: var(--red);
-  transform: scale(1.2);
-}
-
-.home .carousel-control-next,
-.home .carousel-control-prev {
-  height: 60px;
-  width: 60px;
-  opacity: 1;
-  z-index: 3;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-.home .carousel-control-next:hover,
-.home .carousel-control-prev:hover {
-  box-shadow: 0 0 10px var(--red);
-}
-.home .carousel-control-next img,
-.home .carousel-control-prev img {
-  width: 30px;
-}
-.home .carousel-control-next {
-  right: -90px;
-}
-.home .carousel-control-prev {
-  left: -90px;
-}
-@media (max-width: 767px) {
-  .home .carousel-control-next,
-  .home .carousel-control-prev {
-    display: none;
-  }
-  .home .carousel-indicators li {
-    height: 60px;
-    width: 60px;
-  }
-  .home .carousel-item h2 {
-    font-size: 25px;
-  }
-  .home .carousel-item p {
-    font-size: 14px;
-  }
-}
-/* banner us section design end */
 
 /* gallery  us section design start */
 .gallery-section {
@@ -388,7 +244,8 @@
 
 /* brand logo img  start */
 .brand {
-  padding: 50px 0;
+  padding: 80px 0; 
+  overflow: hidden;
 }
 
 .brand-image {
@@ -398,6 +255,25 @@
   margin: 0 auto;
   max-width: 130px;
   border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .brand {
+    padding: 40px 0;
+  }
+
+  .brand-image {
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 575px) {
+  .brand {
+    padding: 20px 0;
+  }
+
+  .brand-image {
+    max-width: 70px;
+  }
 }
 /* brand logo img  end */
 
@@ -741,4 +617,33 @@ a.icon-link:hover {
   line-height: 1.4rem;
   word-spacing: -2px;
   letter-spacing: 0.8px;
+}
+
+
+
+/* -----------mission section start here---------- */
+.animated-icon {
+  animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* Add delays to each icon */
+.about-icon1 {
+  animation-delay: 0s;
+}
+
+.about-icon2 {
+  animation-delay: 2s;
+}
+
+.about-icon3 {
+  animation-delay: 3s;
 }

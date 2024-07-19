@@ -3,17 +3,17 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Learning from "../components/Learning";
 import Blog from "./Blog";
-// import Enquiryform from "../components/Enquiryform";
 import Brand from "../components/Brand";
 import Testimonial from "../components/Testimonial";
 import Banner from "../components/Banner";
 import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
-import SisterOrg from "../components/SisterOrg";
+ import SisterOrg from "../components/SisterOrg";
 import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
+import Mission from "./../components/Mission";
 
 const Home = () => {
   const pathname = useLocation();
@@ -23,18 +23,18 @@ const Home = () => {
   return (
     <>
       <Helmet titleTemplate="Akashara" />
-
       <Banner />
-      <Brand />
+      <Mission />
       <Learning />
       <About />
       <Counter />
-      {/* <Enquiryform /> */}
       <Blog />
       <CreativeWeek />
       <Testimonial />
       <HomeBlog />
       <Gallery />
+
+      <Brand />
       <SisterOrg />
       <Contact />
     </>
