@@ -34,7 +34,7 @@ const carouselData = [
 const Banner = () => {
   return (
     <>
-      <section className="home">
+      <section className="home ">
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-controls">
             <ol className="carousel-indicators">

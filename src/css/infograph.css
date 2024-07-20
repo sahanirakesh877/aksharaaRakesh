@@ -1,0 +1,68 @@
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.box {
+  width: 23vmin;
+  height: 23vmin;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 0.5px 0 #000;
+  --border-angle: 0turn;
+
+  --main-bg: conic-gradient(
+    from var(--border-angle),
+    #213,
+    #112 5%,
+    #112 60%,
+    #213 95%
+  );
+
+  border: solid 8px transparent;
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, rgb(3, 196, 60), rgb(219, 12, 54) 99%, transparent);
+
+  background: 
+    var(--main-bg) padding-box,
+    var(--gradient-border) border-box,
+    var(--main-bg) border-box;
+
+  background-position: center center;
+  animation: bg-spin 3s linear infinite;
+}
+
+.box:hover {
+  animation-play-state: paused;
+}
+
+/* Different styles for each box */
+.box-1 { --main-bg: conic-gradient(from var(--border-angle), #ff7f50, #ff6347); }
+.box-2 { --main-bg: conic-gradient(from var(--border-angle), #1e90ff, #00bfff); }
+.box-3 { --main-bg: conic-gradient(from var(--border-angle), #3cb371, #2e8b57); }
+.box-4 { --main-bg: conic-gradient(from var(--border-angle), #dda0dd, #ba55d3); }
+.box-5 { --main-bg: conic-gradient(from var(--border-angle), #ff69b4, #ff1493); }
+.box-6 { --main-bg: conic-gradient(from var(--border-angle), #ffd700, #ffa500); }
+.box-7 { --main-bg: conic-gradient(from var(--border-angle), #72a526, #7cfc00); }
+.box-8 { --main-bg: conic-gradient(from var(--border-angle), #8a2be2, #4b0082); }
+.box-9 { --main-bg: conic-gradient(from var(--border-angle), #00ced1, #20b2aa); }
+.box-10 { --main-bg: conic-gradient(from var(--border-angle), #ff4500, #dc143c); }
+
+
+
+.text-center {
+  text-align: center;
+}
+
+
+
+

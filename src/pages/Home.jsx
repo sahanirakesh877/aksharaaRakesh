@@ -14,6 +14,7 @@ import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
 import Mission from "./../components/Mission";
+import Infograph from "../components/Infograph";
 
 const Home = () => {
   const pathname = useLocation();
@@ -24,18 +25,22 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
+     
+
       <Mission />
       <Learning />
       <About />
       <Counter />
       <Blog />
       <CreativeWeek />
-      <Testimonial />
       <HomeBlog />
+      <Testimonial />
+     
       <Gallery />
 
       <Brand />
       <SisterOrg />
+      <Infograph/>
       <Contact />
     </>
   );

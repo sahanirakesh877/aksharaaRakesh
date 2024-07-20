@@ -7,7 +7,7 @@ const testimonialData = [
     id: 1,
     title: "Excellent Education",
     description:
-      "The teachers at Akshara School are fantastic! They have provided my child with the support and encouragement needed to excel academically and personally.",
+      "The teachers at Akshara School are fantastic! They have provided my child with the support and encouragement needed to excel academically .",
     image: "team_1.jpg",
     name: "John Doe",
     post: "Parent",
@@ -27,7 +27,7 @@ const testimonialData = [
     id: 3,
     title: "Holistic Development",
     description:
-      "Akshara School focuses on holistic development. My son is not only excelling in academics but also in extracurricular activities, thanks to the wonderful programs.",
+      "Akshara School focuses on holistic development. My son is not only excelling in academics but also in extracurricular activities, thanks to the wonderful .",
     image: "team_3.jpg",
     name: "Emily Johnson",
     post: "Parent",
