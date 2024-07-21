@@ -486,14 +486,7 @@ a {
   font-size: 0.9rem;
 }
 
-.border-end {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  height: auto;
 
-  border-color: rgb(2, 97, 160) !important;
-}
 .mission-color {
   /* background: linear-gradient(30deg, #005C86, #47f6d6); */
   background: linear-gradient(to top, #bae4f5, #ffffff);

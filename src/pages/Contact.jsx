@@ -111,7 +111,7 @@ const Contact = () => {
                   top: 0,
                   left: 0,
                   width: "100%",
-                  height: "67.5vh",
+                  height: "46.3vh",
                   border: 0,
                 }}
                 allowFullScreen=""
