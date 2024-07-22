@@ -28,7 +28,7 @@ const Home = () => {
       <Banner />
       {/* <Infochek/> */}
       <Mission />
-      <Learning />
+      {/* <Learning /> */}
       {/* <Infograph /> */}
       <About />
       <Counter />
@@ -36,7 +36,7 @@ const Home = () => {
       <CreativeWeek />
       <HomeBlog />
       <Testimonial />
-      <Gallery />
+      {/* <Gallery /> */}
       <Brand />
       {/* <SisterOrg /> */}
       <Contact />

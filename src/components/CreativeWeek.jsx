@@ -19,20 +19,16 @@ const CreativeWeek = () => {
   const items = brandImg.map((img, index) => (
     <div className="creative-item card border-0 p-3 m-md-0 p-md-1" key={index}>
       <div className="img-container">
-        <img src={img} alt={`Brand ${index + 1}`} className="card-img-top" />
+        <img src={img} alt={`Brand ${index + 1}`} className="card-img-top img-fluid" />
       </div>
-      <div className="card-body my-md-0  border position-relative ">
-        <h5 className="text-danger my-md-0 d-inline ">Annual Function</h5>
-        <p className="creative-text  my-md-0 pb-5">
-          {" "}
-          Join us for an Exciting lineup of workshops and seminars that will
-          inspire and empower you! Don't miss out on our annual college
-          fest—packed with fun activities, competitions, and unforgettable
-          experiences
+      <div className="card-body my-md-0  border position-relative">
+        <h5 className="text-danger my-md-0 d-inline">Annual Function</h5>
+        <p className="creative-text my-md-0 pb-5">
+          Join us for an exciting lineup of workshops and seminars that will inspire and empower you! Don't miss out on our annual college fest—packed with fun activities, competitions, and unforgettable experiences.
         </p>
-        <div className="btn_wraps position-absolute end-0  bottom-0 my-2 me-3">
+        <div className="btn_wraps position-absolute end-0 bottom-0 my-2 me-3">
           <span className="share">
-            Share <i class="fa-solid fa-share"></i>
+            Share <i className="fa-solid fa-share"></i>
           </span>
           <div className="share-icon">
             <i className="fab fa-facebook-f creative_i" />
@@ -46,41 +42,39 @@ const CreativeWeek = () => {
   ));
 
   return (
-    <>
-      <div className="container">
-        <div className="row py-5">
-          <div className="col-lg-6">
-            <h2 className="text-center border-bottom-title w-100 head-color mb-5">
-              <span className="addcolor">Creatives Of </span> This Week
-            </h2>
-            <AliceCarousel
-              mouseTracking
-              items={items}
-              autoPlay={true}
-              infinite={true}
-              autoPlayDirection="rtl"
-              responsive={responsive}
-              controlsStrategy="alternate"
-              animationDuration={9000}
-              disableButtonsControls={true}
-            />
-          </div>
+    <div className="container">
+      <div className="row py-5">
+        <div className="col-lg-6 col-md-12 mb-4">
+          <h2 className="text-center border-bottom-title w-100 head-color mb-5">
+            <span className="addcolor">Creatives Of </span> This Week
+          </h2>
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            autoPlay={true}
+            infinite={true}
+            autoPlayDirection="rtl"
+            responsive={responsive}
+            controlsStrategy="alternate"
+            animationDuration={9000}
+            disableButtonsControls={true}
+          />
+        </div>
 
-          <div className="col-lg-6">
-            <h2 className="text-center border-bottom-title w-100 head-color mb-5">
-              <span className="addcolor">Important </span> Notice
-            </h2>
-            <div className="creative-items border">
-              <img
-                src="https://img.freepik.com/free-vector/flat-design-back-school-sales-concept_23-2148612151.jpg?t=st=1720522381~exp=1720525981~hmac=0b926379529b99d0a0f8b16688a8eb23dd8e5edf8df360bb2a1eaf7decc669af&w=826"
-                alt=""
-                className="img-fluid"
-              />
-            </div>
+        <div className="col-lg-6 col-md-12 mb-4">
+          <h2 className="text-center border-bottom-title w-100 head-color mb-5">
+            <span className="addcolor">Important </span> Notice
+          </h2>
+          <div className="creative-items border">
+            <img
+              src="https://img.freepik.com/free-vector/flat-design-back-school-sales-concept_23-2148612151.jpg?t=st=1720522381~exp=1720525981~hmac=0b926379529b99d0a0f8b16688a8eb23dd8e5edf8df360bb2a1eaf7decc669af&w=826"
+              alt="Important Notice"
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 .corner-border {
     --b: 0.5em;
     --c: 3em; 
-    --r: 2em;
+    --r: 1.9em;
     position: relative;
     border: solid var(--b) transparent;
     margin: 1em;

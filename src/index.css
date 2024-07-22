@@ -335,6 +335,7 @@
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
+  
 }
 .border-bottom-title::after {
   content: "";
@@ -374,7 +375,6 @@
   transition: inherit;
   z-index: -1;
 }
-
 .btns:hover {
   color: white;
   transition-delay: 0.5s;
@@ -391,86 +391,6 @@
 .inactive {
   background: var(--third);
   color: white;
-}
-
-/* From center */
-.from-center {
-  background-color: #019f40;
-  color: white;
-}
-.from-center:before {
-  top: 0;
-  left: 50%;
-  height: 100%;
-  width: 0;
-  border: 2px solid white;
-  border-left: 0;
-  border-right: 0;
-}
-.from-center:after {
-  bottom: 0;
-  left: 0;
-  height: 0;
-  width: 100%;
-  background: var(--third);
-}
-.from-center:hover:before {
-  left: 0;
-  width: 100%;
-}
-.from-center:hover:after {
-  top: 0;
-  height: 100%;
-}
-/* From Right */
-.from-right {
-  background-color: #047130;
-  color: white;
-}
-
-.from-right:before,
-.from-right:after {
-  top: 0;
-  width: 0;
-  height: 100%;
-}
-.from-right:before {
-  left: 0;
-  border: 2px solid white;
-  border-left: 0;
-  border-right: 0;
-}
-.from-right:after {
-  right: 0;
-}
-.from-right:hover:before,
-.from-right:hover:after {
-  width: 100%;
-}
-
-/* From Left */
-.from-left {
-  background-color: #00c44f;
-  color: white;
-}
-.from-left:before,
-.from-left:after {
-  top: 0;
-  width: 0;
-  height: 100%;
-}
-.from-left:before {
-  right: 0;
-  border: 2px solid white;
-  border-left: 0;
-  border-right: 0;
-}
-.from-left:after {
-  left: 0;
-}
-.from-left:hover:before,
-.from-left:hover:after {
-  width: 100%;
 }
 
 /* ~~~~~~~~~~~~ blogs upper  and button design  end~~~~~~~~~~~~ */

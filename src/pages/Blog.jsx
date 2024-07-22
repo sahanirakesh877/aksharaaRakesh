@@ -265,31 +265,31 @@ const Blog = () => {
             <span className="addcolor">Aksharaa</span> Highlights
           </h2>
 
-          <div className="d-flex flex-row py-4  gap-5  justify-content-center align-items-center ">
-            <h5
-              className={`border rounded-pill px-4 py-1 flex-wrap d-flex  border-info   text-center fw-semibold ${
+          <div className="d-flex flex-row py-4 gap-3 justify-content-center align-items-center flex-wrap">
+            <h6
+              className={`border rounded-pill px-4 py-1 flex-wrap d-flex border-info text-center fw-semibold ${
                 filter === "Featured News" ? "text-danger" : "text-dark"
-              }`}
+              } fs-6 fs-md-5 fs-lg-4`}
               onClick={() => setFilter("Featured News")}
             >
               Activities
-            </h5>
-            <h5
-              className={`border rounded-pill px-4 py-1 border-info  flex-wrap d-flex   text-center fw-semibold ${
+            </h6>
+            <h6
+              className={`border rounded-pill px-4 py-1 border-info flex-wrap d-flex text-center fw-semibold ${
                 filter === "Upcoming Events" ? "text-danger" : "text-dark"
-              }`}
+              } fs-6 fs-md-5 fs-lg-4`}
               onClick={() => setFilter("Upcoming Events")}
             >
               Upcoming Events
-            </h5>
-            <h5
-              className={`border rounded-pill px-4 py-1 border-info flex-wrap d-flex   text-center fw-semibold ${
+            </h6>
+            <h6
+              className={`border rounded-pill px-4 py-1 border-info flex-wrap d-flex text-center fw-semibold ${
                 filter === "Calendar" ? "text-danger" : "text-dark"
-              }`}
+              } fs-6 fs-md-5 fs-lg-4`}
               onClick={() => setFilter("Calendar")}
             >
               Calendar
-            </h5>
+            </h6>
           </div>
         </div>
       </div>
@@ -316,7 +316,7 @@ const Blog = () => {
         {filter === "Upcoming Events" && (
           <div className="container blog-container py-4">
             <div className="row py-4">
-              <h4 className="text-center mb-5   border-bottom-title">
+              <h4 className="text-center my-4  border-bottom-title">
                 School Events Schedule
               </h4>
               {filteredBlogData.map((item) => (
@@ -343,7 +343,7 @@ const Blog = () => {
         {filter === "Calendar" && (
           <div className="container py-4">
             <div className="row py-4">
-              <h4 className="text-center mb-5  border-bottom-title">
+              <h4 className="text-center my-5  border-bottom-title">
                 Calender Schedule
               </h4>
 

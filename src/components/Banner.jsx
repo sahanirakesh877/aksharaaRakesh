@@ -74,9 +74,9 @@ const Banner = () => {
                 className={`carousel-item  im ${index === 0 ? "active" : ""}`}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
-                <div className="container">
+                {/* <div className="container">
                   <p className=" px-4 fs-5"> Playgroup to Grade 10</p>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

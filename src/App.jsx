@@ -77,9 +77,9 @@ const App = () => {
         <Route path="/gallery" element={<Photos />} />
         <Route path="/photo" element={<Gallery />} />
       </Routes>
-      <SideIcon />
+      {/* <SideIcon /> */}
       {/* <ChatApp /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
