@@ -3,16 +3,16 @@ import "../css/infograph.css";
 
 const Infograph = () => {
   const boxes = [
-    // "Empathy",
+    "Empathy",
     "Critical Thinking",
     "Life Long Learners",
     "Responsibility",
     "Integrity",
     "Reliability",
-    // "Collaboration",
-    // "Respectability",
-    // "Effective Communication",
-    // "Positivity",
+    "Collaboration",
+    "Respectability",
+    "Effective Communication",
+    "Positivity",
   ];
 
   return (

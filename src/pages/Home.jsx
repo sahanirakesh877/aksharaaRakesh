@@ -9,12 +9,13 @@ import Banner from "../components/Banner";
 import Contact from "./Contact";
 import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
- import SisterOrg from "../components/SisterOrg";
+// import SisterOrg from "../components/SisterOrg";
 import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
 import Mission from "./../components/Mission";
 import Infograph from "../components/Infograph";
+import Infochek from "../components/Infochek";
 
 const Home = () => {
   const pathname = useLocation();
@@ -25,22 +26,19 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
-     
-
+      {/* <Infochek/> */}
       <Mission />
       <Learning />
+      {/* <Infograph /> */}
       <About />
       <Counter />
       <Blog />
       <CreativeWeek />
       <HomeBlog />
       <Testimonial />
-     
       <Gallery />
-
       <Brand />
-      <SisterOrg />
-      <Infograph/>
+      {/* <SisterOrg /> */}
       <Contact />
     </>
   );

@@ -468,31 +468,7 @@ a {
 }
 
 /* mission and vision */
-.about-icon1 {
-  color:var(--green2);
-}
 
-.about-icon2 {
-  color: green;
-}
-
-.about-icon3 {
-  color: var(--red);
-}
-
-.mission-p {
-  text-align: justify;
-  padding: 0 15px;
-  font-size: 0.9rem;
-}
-
-
-.mission-color {
-  /* background: linear-gradient(30deg, #005C86, #47f6d6); */
-  background: linear-gradient(to top, #bae4f5, #ffffff);
-
-
-}
 
 .b-col {
   border-right: 2px solid rgb(4, 4, 4);
