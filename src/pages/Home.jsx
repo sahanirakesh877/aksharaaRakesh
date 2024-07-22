@@ -16,6 +16,7 @@ import HomeBlog from "../components/HomeBlog";
 import Mission from "./../components/Mission";
 import Infograph from "../components/Infograph";
 import Infochek from "../components/Infochek";
+import Pic from "../components/Pic";
 
 const Home = () => {
   const pathname = useLocation();
@@ -26,6 +27,7 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
+      <Pic/>
       {/* <Infochek/> */}
       <Mission />
       {/* <Learning /> */}
