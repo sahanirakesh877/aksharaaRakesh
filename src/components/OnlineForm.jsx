@@ -8,9 +8,7 @@ const OnlineForm = () => {
           Apply Online
         </h4>
         <div className="row ">
-          {/* <h4 className="text-center bg-success text-white py-2  ">
-          Enquiry Form
-        </h4> */}
+        
           <div className="d-flex justify-content-center align-content-center flex-wrap gap-3">
             <img src="/akasharalogo.png" alt="logo" className="img-fluid" />
             <div className="mb-md-0 p-0 d-flex flex-column inquiry-text">
@@ -37,11 +35,11 @@ const OnlineForm = () => {
           </div>
         </div>
 
-        <form className="px-4 ">
+        <form className="px-4 border">
           {/* Student Details */}
           <div className="mb-1">
-            <h6 className="form-head position-relative mt-4">
-              Student Details : <span className="paralleogram"></span>
+            <h6 className="form-head position-relative mt-4 ">
+              Student Details : <span className="paralleogram "></span>
             </h6>
             <div className="row">
               <div className="col-md-6 mb-2">
@@ -140,7 +138,7 @@ const OnlineForm = () => {
               </div>
             </div>
 
-            {/* temporaru address */}
+            {/* temporary address */}
             <div className="row mt-4">
               <div className="col-md-6 mb-2">
                 <div className="input-group">
@@ -667,7 +665,7 @@ const OnlineForm = () => {
               </div>
               <div className="col-md-12">
                 <div className="input-group d-flex align-items-center gap-3">
-                  <span className="input-group-text">
+                  <span className="input-group-text text-wrap">
                     If Seperated/Divorced child is under the custody of
                   </span>
                   <div className="form-check">
@@ -845,7 +843,7 @@ const OnlineForm = () => {
               For further details and term, please refer out website
               www.aksharaaschool.edu.np
             </p>
-            <div className="d-flex gap-3 mb-2">
+            <div className="d-flex gap-3 mb-2 flex-wrap">
               <p className="me-5">
                 {" "}
                 Parent's Name: <input type="text" className="ps-5" />{" "}

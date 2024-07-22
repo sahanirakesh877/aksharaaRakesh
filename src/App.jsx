@@ -79,7 +79,7 @@ const App = () => {
       </Routes>
       {/* <SideIcon /> */}
       {/* <ChatApp /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

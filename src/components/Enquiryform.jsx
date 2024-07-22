@@ -221,7 +221,7 @@ const Enquiryform = () => {
 
               <div className="col-md-6">
                 <div className="input-group">
-                  <span className="input-group-text">
+                  <span className="input-group-text text-wrap">
                     How do you come to know about us?
                   </span>
                   <select className="form-select rounded-end-2" id="studentGender">
